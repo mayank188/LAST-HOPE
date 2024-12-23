@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(a.c);
+    background-size: cover;
+}
+
+header {
+    /* background-color: #004d99; */
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+header h1 {
+   font-weight: bold;
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: 900;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 450px;
+    width: 900px;
+    /* background: linear-gradient(135deg, darkblue, rgb(0, 0, 0)); */
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin: 60px auto 25px auto;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+main:hover {
+   
+    /* background: linear-gradient(135deg, black, darkblue); */
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+main h1{
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(0, 0, 0), /* Glow effect */
+                 0 0 10px rgb(12, 12, 12), 
+                 0 0 15px rgb(14, 13, 13), /* Add a bluish tint */
+                 0 0 20px rgb(0, 128, 255), 
+                 0 0 25px rgb(0, 128, 255); 
+}
+
+.c1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(135deg, black, darkblue);
+    border-radius: 25px;
+    border: 2px solid white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.c1:hover {
+    background: linear-gradient(135deg, darkblue, rgb(0, 0, 0));
+    color: lightblue;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px);
+    
+}
+
+.c1:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    /* background-color: #004d99; */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+main button a{
+    text-decoration: none;
+    color: white;
+}
