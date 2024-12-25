@@ -53,7 +53,7 @@ h1{
     transition-timing-function: ease-in-out;
 }
 .same:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 0px 0px 50px rgba(247, 243, 33, 0.7);
 }
 #h1{
